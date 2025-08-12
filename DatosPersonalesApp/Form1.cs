@@ -14,6 +14,7 @@ namespace DatosPersonalesApp
     {
         public Formulario()
         {
+            //Constructor del formulario
             InitializeComponent();
         }
 
@@ -95,6 +96,11 @@ namespace DatosPersonalesApp
             {
                 e.Handled = true; // Bloquea la tecla
             }
+        }
+
+        private void Formulario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

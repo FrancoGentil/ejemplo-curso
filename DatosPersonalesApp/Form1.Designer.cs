@@ -170,6 +170,7 @@
             this.Name = "Formulario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Datos Personales";
+            this.Load += new System.EventHandler(this.Formulario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
